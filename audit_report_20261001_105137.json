@@ -1,0 +1,92 @@
+{
+  "missing_values": {
+    "total_missing": 0,
+    "overall_missing_rate": 0.0,
+    "columns_with_missing": 0,
+    "details": []
+  },
+  "duplicates": {
+    "total_duplicate_rows": 0,
+    "duplicate_percentage": 0.0,
+    "key_column_duplicates": {
+      "Order ID": {
+        "count": 82,
+        "percentage": 82.0
+      },
+      "Order Date": {
+        "count": 82,
+        "percentage": 82.0
+      },
+      "Ship Date": {
+        "count": 82,
+        "percentage": 82.0
+      },
+      "Ship Mode": {
+        "count": 96,
+        "percentage": 96.0
+      },
+      "Customer ID": {
+        "count": 82,
+        "percentage": 82.0
+      }
+    }
+  },
+  "range_validation": {
+    "numeric_columns_analyzed": 6,
+    "columns_with_outliers": 4,
+    "details": [
+      {
+        "column": "Sales",
+        "min": 7.0,
+        "max": 520.0,
+        "mean": 110.7576,
+        "std": 149.53844710260498,
+        "outlier_count": 16,
+        "outlier_percentage": 16.0,
+        "negative_count": 0
+      },
+      {
+        "column": "Quantity",
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.63,
+        "std": 1.0015644328406001,
+        "outlier_count": 11,
+        "outlier_percentage": 11.0,
+        "negative_count": 0
+      },
+      {
+        "column": "Discount",
+        "min": 0.0,
+        "max": 0.2,
+        "mean": 0.020000000000000004,
+        "std": 0.05124707431905382,
+        "outlier_count": 15,
+        "outlier_percentage": 15.0,
+        "negative_count": 0
+      },
+      {
+        "column": "Profit",
+        "min": 2.0,
+        "max": 80.0,
+        "mean": 19.46,
+        "std": 22.637869407546535,
+        "outlier_count": 21,
+        "outlier_percentage": 21.0,
+        "negative_count": 0
+      }
+    ]
+  },
+  "consistency": {
+    "categorical_columns_analyzed": 15,
+    "issues_found": 0,
+    "details": []
+  },
+  "summary": {
+    "total_issues": 9,
+    "high_severity": 0,
+    "medium_severity": 4,
+    "low_severity": 5,
+    "quality_score": 70
+  }
+}

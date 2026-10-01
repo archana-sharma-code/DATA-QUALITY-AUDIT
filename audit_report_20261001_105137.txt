@@ -1,0 +1,61 @@
+======================================================================
+DATA QUALITY AUDIT REPORT
+======================================================================
+Generated: 2026-10-01 10:51:37
+Dataset: sample_superstore.csv
+Rows: 100, Columns: 21
+
+======================================================================
+SUMMARY
+======================================================================
+Total Issues: 9
+Quality Score: 70/100
+
+======================================================================
+ISSUE LOG
+======================================================================
+
+1. Duplicate Values - Order ID
+   Severity: Low
+   Description: 82 duplicate values in Order ID (82.00%)
+   Recommendation: Review if duplicates are expected for this field
+
+2. Duplicate Values - Order Date
+   Severity: Low
+   Description: 82 duplicate values in Order Date (82.00%)
+   Recommendation: Review if duplicates are expected for this field
+
+3. Duplicate Values - Ship Date
+   Severity: Low
+   Description: 82 duplicate values in Ship Date (82.00%)
+   Recommendation: Review if duplicates are expected for this field
+
+4. Duplicate Values - Ship Mode
+   Severity: Low
+   Description: 96 duplicate values in Ship Mode (96.00%)
+   Recommendation: Review if duplicates are expected for this field
+
+5. Duplicate Values - Customer ID
+   Severity: Low
+   Description: 82 duplicate values in Customer ID (82.00%)
+   Recommendation: Review if duplicates are expected for this field
+
+6. Outlier - Sales
+   Severity: Medium
+   Description: 16 outliers detected (16.00%)
+   Recommendation: Review outliers for data entry errors or legitimate extreme values
+
+7. Outlier - Quantity
+   Severity: Medium
+   Description: 11 outliers detected (11.00%)
+   Recommendation: Review outliers for data entry errors or legitimate extreme values
+
+8. Outlier - Discount
+   Severity: Medium
+   Description: 15 outliers detected (15.00%)
+   Recommendation: Review outliers for data entry errors or legitimate extreme values
+
+9. Outlier - Profit
+   Severity: Medium
+   Description: 21 outliers detected (21.00%)
+   Recommendation: Review outliers for data entry errors or legitimate extreme values

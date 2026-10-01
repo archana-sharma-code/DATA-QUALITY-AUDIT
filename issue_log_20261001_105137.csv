@@ -1,0 +1,10 @@
+Issue Type,Column,Severity,Description,Recommendation
+Duplicate Values,Order ID,Low,82 duplicate values in Order ID (82.00%),Review if duplicates are expected for this field
+Duplicate Values,Order Date,Low,82 duplicate values in Order Date (82.00%),Review if duplicates are expected for this field
+Duplicate Values,Ship Date,Low,82 duplicate values in Ship Date (82.00%),Review if duplicates are expected for this field
+Duplicate Values,Ship Mode,Low,96 duplicate values in Ship Mode (96.00%),Review if duplicates are expected for this field
+Duplicate Values,Customer ID,Low,82 duplicate values in Customer ID (82.00%),Review if duplicates are expected for this field
+Outlier,Sales,Medium,16 outliers detected (16.00%),Review outliers for data entry errors or legitimate extreme values
+Outlier,Quantity,Medium,11 outliers detected (11.00%),Review outliers for data entry errors or legitimate extreme values
+Outlier,Discount,Medium,15 outliers detected (15.00%),Review outliers for data entry errors or legitimate extreme values
+Outlier,Profit,Medium,21 outliers detected (21.00%),Review outliers for data entry errors or legitimate extreme values
